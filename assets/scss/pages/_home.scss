@@ -1,0 +1,137 @@
+// first section start
+.cocaCola {
+  background-image: url(../imgs/cocacolaBackground.jpg);
+  // width: 100%;
+  height: 90vh;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+@media screen and (max-width: 996px){
+  .cocaCola{
+    background-image: url(https://www.coca-cola.az/content/dam/one/az/az/homepage-images/new-coca-cola-slogan_carousel_mobile-600x900.jpg);
+   width: 100%;
+    
+  }
+}
+
+// first section end
+
+// second section start
+.brendler {
+  width: 100%;
+}
+
+.brendClass {
+  width: 800px;
+  float: left;
+  height: 600px;
+}
+
+.mediaBilirsinizmi {
+  display: flex;
+  flex-direction: column;
+}
+
+.mediaBilirsinizmi div {
+  width: 100%;
+  height: 300px;
+}
+
+img:hover {
+  transform: scale(1.4);
+  transition: 5s;
+}
+
+.img {
+  overflow: hidden;
+  background-position: center;
+}
+@media screen and (max-width: 996px){
+  .secondSection{
+    .brendler{
+      background-image: url(https://www.coca-cola.az/content/dam/one/az/az/homepage-images/brands_homepage_mobile_v3.jpg);
+      
+    }
+  }
+}
+//_____________________________________________________________
+// .secondSection {
+//   .brendler {
+//     overflow: hidden;
+//     width: 100%;
+//     display: flex;
+
+//     .brendClass {
+//       overflow: hidden ;
+//       width: 55%;
+//     }
+
+//     .mediaBilirsinizmi {
+//       overflow: hidden;
+//       display: flex;
+//       width: 45%;
+//       flex-direction: column;
+//     }
+//     img:hover{
+//       transition: all 1.5s ease;
+//         transform: scale(1.2);
+//   }
+//   }
+// }
+// second section end
+
+// third section start
+.thirdSection {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  justify-content: center;
+
+  .image {
+    width: 33.33333333%;
+    overflow: hidden;
+
+    img {
+      width: 100%;
+
+      &:hover {
+        transition: all 1.5s ease;
+        transform: scale(1.2);
+      }
+    }
+  }
+}
+
+// third section end
+
+// about section start
+.about {
+  width: 100%;
+  height: 300px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-self: center;
+
+  .main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-self: center;
+    margin-top: 80px;
+
+    .mainInside {
+      display: flex;
+      flex-direction: row;
+
+      p {
+        margin-left: 40px;
+        margin-right: 40px;
+        font-size: 20px;
+        font-family: "proxima-nova", sans-serif;
+        cursor: pointer;
+      }
+    }
+  }
+}
+// about section end

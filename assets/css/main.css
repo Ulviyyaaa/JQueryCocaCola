@@ -1,0 +1,162 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+  list-style: none;
+}
+
+footer {
+  width: 100%;
+  background-color: black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+footer .logoFooter img {
+  width: 300px;
+  margin-top: 20px;
+}
+footer .end {
+  display: flex;
+  align-items: center;
+  width: 100%;
+  justify-content: space-between;
+}
+footer .end .endInside {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+footer .end .endInside ul {
+  display: flex;
+  flex-direction: row;
+}
+footer .end .endInside ul a {
+  margin-left: 20px;
+  margin-right: 20px;
+  color: white;
+  font-family: "proxima-nova", sans-serif;
+}
+footer .end p {
+  color: white;
+  font-family: "proxima-nova", sans-serif;
+}
+
+nav {
+  width: 100%;
+  height: 72px;
+  background-color: black;
+  display: flex;
+  position: fixed;
+  justify-content: space-between;
+  align-items: center;
+  z-index: 1;
+}
+nav i {
+  color: white;
+  margin: 20px;
+  font-size: 30px;
+  cursor: pointer;
+}
+nav img {
+  height: 30px;
+}
+nav #search {
+  margin: 30px;
+}
+
+.cocaCola {
+  background-image: url(../imgs/cocacolaBackground.jpg);
+  height: 90vh;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+@media screen and (max-width: 996px) {
+  .cocaCola {
+    background-image: url(https://www.coca-cola.az/content/dam/one/az/az/homepage-images/new-coca-cola-slogan_carousel_mobile-600x900.jpg);
+    width: 100%;
+  }
+}
+.brendler {
+  width: 100%;
+}
+
+.brendClass {
+  width: 800px;
+  float: left;
+  height: 600px;
+}
+
+.mediaBilirsinizmi {
+  display: flex;
+  flex-direction: column;
+}
+
+.mediaBilirsinizmi div {
+  width: 100%;
+  height: 300px;
+}
+
+img:hover {
+  transform: scale(1.4);
+  transition: 5s;
+}
+
+.img {
+  overflow: hidden;
+  background-position: center;
+}
+
+@media screen and (max-width: 996px) {
+  .secondSection .brendler {
+    background-image: url(https://www.coca-cola.az/content/dam/one/az/az/homepage-images/brands_homepage_mobile_v3.jpg);
+  }
+}
+.thirdSection {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  justify-content: center;
+}
+.thirdSection .image {
+  width: 33.33333333%;
+  overflow: hidden;
+}
+.thirdSection .image img {
+  width: 100%;
+}
+.thirdSection .image img:hover {
+  transition: all 1.5s ease;
+  transform: scale(1.2);
+}
+
+.about {
+  width: 100%;
+  height: 300px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-self: center;
+}
+.about .main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-self: center;
+  margin-top: 80px;
+}
+.about .main .mainInside {
+  display: flex;
+  flex-direction: row;
+}
+.about .main .mainInside p {
+  margin-left: 40px;
+  margin-right: 40px;
+  font-size: 20px;
+  font-family: "proxima-nova", sans-serif;
+  cursor: pointer;
+}/*# sourceMappingURL=main.css.map */

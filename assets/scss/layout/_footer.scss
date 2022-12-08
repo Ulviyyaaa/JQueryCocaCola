@@ -1,0 +1,45 @@
+footer {
+    width: 100%;
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
+    .logoFooter {
+        img {
+            width: 300px;
+            margin-top: 20px;
+        }
+    }
+    
+    .end{
+        display: flex;
+        align-items: center;
+        width: 100%;
+        justify-content: space-between;
+
+        .endInside{
+            display: flex;
+            flex-direction: row;
+            align-items: center;
+            justify-content: center;
+
+            ul{
+                display: flex;
+                flex-direction: row;
+
+                a{
+                    margin-left: 20px;
+                    margin-right: 20px;
+                    color: white;
+                    font-family: "proxima-nova", sans-serif;
+                }
+            }
+        }
+        p{
+            color: white;
+            font-family: "proxima-nova", sans-serif;
+        }
+    }
+}
